@@ -9,7 +9,7 @@ const WeatherReport = ({ weather }) => {
     <div>
       <h2>Weather Report</h2>
       <p>
-        Temperature: <span style={{ color: temperatureColor }}>{`${weather.temperature}°C`}</span>
+        Temperature: <span style={{ color: temperatureColor }}>{`${weather.temperature}`}</span>
       </p>
       <p>Conditions: {weather.conditions}</p>
     </div>
